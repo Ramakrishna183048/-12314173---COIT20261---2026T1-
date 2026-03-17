@@ -1,7 +1,10 @@
-## [COIT20261]-[2026T1] 
+#  GNS3 Introduction Lab Portfolio
 
-This repository contains my assessment for COIT20261
+> **Project:** GNS3-Intro-\<12314173\>  
+> **Student Name:** \<Rachabanti Ramakrishna\>  
+> **Student ID:** \<12314173\>  
+> **Unit Code:** \<COIT20261\>  
+> **Campus:** \<Rockhampton\>  
+> **Teacher:** \<MD Mamunur Rashid\>
+> **Tutor:** \<Top Pun\>
 
-# Name : Rachabanti Ramakrishna
-# Unit : Network Services and Automation(COIT20261)
-# Tutor : Top Pun
