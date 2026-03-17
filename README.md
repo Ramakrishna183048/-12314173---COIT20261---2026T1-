@@ -28,3 +28,30 @@ This lab introduces the GNS3 network simulator. The objective was to create a si
 | 10 | Close Project | Verified all outputs, documented commands and learnings, then closed the project | Done|
 
 ---
+
+##  Network Interface Configuration
+
+### File: `/etc/network/interfaces`
+
+The following configuration was applied to the `/etc/network/interfaces` file **before** starting the node:
+
+```bash
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+    address 10.10.1.1
+    netmask 255.255.255.0
+    up sysctl net.ipv4.ip_forward=0
+```
+
+### Configuration Explained
+
+| **Line** | **Command** | **Purpose** |
+|---|---|---|
+| 1 | `auto eth0` | Automatically brings up the eth0 interface at boot |
+| 2 | `iface eth0 inet static` |  |
+| 3 | `address 10.10.1.1` |  |
+| 4 | `netmask 255.255.255.0` |  |
+| 5 | `up sysctl net.ipv4.ip_forward=0` |  |
+
+
