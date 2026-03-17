@@ -8,7 +8,7 @@
 > **Teacher:** \<MD Mamunur Rashid\>  
 > **Tutor:** \<Top Pun\>
 
- ## COIT20261 Network Services and Automation PORTFOLIO 
+ ## COIT20261 Network Services and Automation Portfolio
  
  > [Introduction to GNS3 Basics](./week1.md)  
  > [Setting Static IP Addresses](./week2.md)
