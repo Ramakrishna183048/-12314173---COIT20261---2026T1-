@@ -49,9 +49,9 @@ iface eth0 inet static
 | **Line** | **Command** | **Purpose** |
 |---|---|---|
 | 1 | `auto eth0` | Automatically brings up the eth0 interface at boot |
-| 2 | `iface eth0 inet static` |  |
-| 3 | `address 10.10.1.1` |  |
-| 4 | `netmask 255.255.255.0` |  |
-| 5 | `up sysctl net.ipv4.ip_forward=0` |  |
+| 2 | `iface eth0 inet static` | Specifies that the eth0 interface uses a static IPv4 configuration. |
+| 3 | `address 10.10.1.1` | Assigns the IP address 10.10.1.1 to the eth0 network interface. |
+| 4 | `netmask 255.255.255.0` | Defines the subnet mask for the network, indicating the network range. |
+| 5 | `up sysctl net.ipv4.ip_forward=0` | Disables IP forwarding so the system does not route packets between networks. |
 
 
