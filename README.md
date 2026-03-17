@@ -57,4 +57,20 @@ iface eth0 inet static
 ### Purpose of disabling IP Forwarding?
 IP forwarding is disabled to ensure that the Linux node operates only as a host device and does not forward packets between network interfaces. This prevents the system from acting as a router in the network topology.
 
+---
+
+##  Commands Used
+
+| S.N. | Command | **Purpose** |
+|---|---|---|
+| 1 | `ip address show` |  |
+| 2 | `cat /etc/network/interfaces` |  |
+| 3 | `sysctl net.ipv4.ip_forward` |  |
+
+
+
+
+
+
+
 
