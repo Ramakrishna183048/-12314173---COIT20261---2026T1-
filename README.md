@@ -87,6 +87,62 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
        valid_lft forever preferred_lft forever
 ```
 
+### Output Explained
+
+| **Field** | **Value** | **Meaning** |
+|---|---|---|
+| Interface | eth0 | Ethernet interface |
+| State | UP, LOWER_UP | |
+| MTU | 1500 | Maximum Transmission Unit (standard Ethernet) |
+| MAC Address | 02:42:b9:24:73:00 |  |
+| IPv4 Address | 10.10.1.1/24 | Static IP address with /24 subnet |
+| IPv6 Address | fe80::42:b9ff:fe24:7300/64 |  |
+
+---
+
+## Screenshots 
+
+### Screenshot 1: GNS3 Network Topology
+
+> This screenshot shows the GNS3 workspace with the Linux host node, project title, student details, and IP address label.
+
+![Network Topology]()
+
+---
+
+### Screenshot 2: Console Output — IP Address Verification
+
+> This screenshot shows the web console output of the `ip address show` command, confirming the static IP address `10.10.1.1` is correctly assigned to eth0.
+
+![IP Address Console]()
+
+---
+
+##  Key Knowledge & Skills Developed
+
+### Networking Concepts
+
+| **S.N.** | **Concept** | **Learning Outcomes** |
+|---|---|---|
+| 1 | Static IP Configuration | How to manually assign an IP address to a Linux network interface using `/etc/network/interfaces` |
+| 2 | Subnet Mask | Understanding how a subnet mask defines the network and host portions of an IP address. |
+| 3 | IP Forwarding | Understanding how IP forwarding allows a system to route packets between networks and how to enable or disable it. |
+| 4 | Network Interfaces |  Understanding how network interfaces (like `eth0`) allow a system to connect and communicate within a network. |
+
+
+### Technical Skills
+
+| **S.N.** | **Skill** | **Description** |
+|---|---|---|
+| 1 | GNS3 Project Setup | Creating new projects, ... |
+| 2 | Linux CLI | Using commands like `ip address show`,.. |
+| 3 | File Editing | Editing the `/etc/network/interfaces` configuration file to ... |
+| 4 | Network Verification | Confirming IP settings by reading and interpreting `ip address show` output |
+| 5 | Documentation | Documenting configuration steps, commands, and outputs clearly in the GitHub README file. |
+
+
+
+---
 
 
 
