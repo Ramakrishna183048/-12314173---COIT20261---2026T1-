@@ -54,4 +54,7 @@ iface eth0 inet static
 | 4 | `netmask 255.255.255.0` | Defines the subnet mask for the network, indicating the network range. |
 | 5 | `up sysctl net.ipv4.ip_forward=0` | Disables IP forwarding so the system does not route packets between networks. |
 
+### Purpose of disabling IP Forwarding?
+IP forwarding is disabled to ensure that the Linux node operates only as a host device and does not forward packets between network interfaces. This prevents the system from acting as a router in the network topology.
+
 
