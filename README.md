@@ -106,7 +106,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 > This screenshot shows the GNS3 workspace with the Linux host node, project title, student details, and IP address label.
 
-![Network Topology](images/GNS-Intro-12314173-ipaddress.png.png)
+![Network Topology](images/GNS-Intro-12314173-network.png.png)
 
 ---
 
@@ -114,7 +114,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 > This screenshot shows the web console output of the `ip address show` command, confirming the static IP address `10.10.1.1` is correctly assigned to eth0.
 
-![IP Address Console]()
+![IP Address Console](images/GNS-Intro-12314173-ipaddress.png.png)
 
 ---
 
