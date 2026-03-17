@@ -8,6 +8,7 @@
 > **Teacher:** \<MD Mamunur Rashid\>  
 > **Tutor:** \<Top Pun\>
 
- ## COIT20261 PORTFOLIO 
+ ## COIT20261 Network Services and Automation PORTFOLIO 
  
  > [Introduction to GNS3 Basics](./week1.md)
+ > [](./week2.md)
