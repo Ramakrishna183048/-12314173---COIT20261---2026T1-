@@ -145,5 +145,14 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 ---
 
 
+##  Reflection
+
+### Key Success or Positive Outcomes?
+
+- Successfully configured a static IP address on a Linux host within GNS3
+- Gained practical experience using the GNS3 network simulator  
+- Learned how to configure network interfaces using the `/etc/network/interfaces` file
+- Verified network configuration using Linux CLI commands such as `ip address show`
+- Improved understanding of basic networking concepts such as subnet masks and IP forwarding
 
 
