@@ -1,4 +1,4 @@
-#  GNS3 Introduction Lab Portfolio
+# Network Services and Automation
 
 > **Project:** GNS3-Intro-\<12314173\>  
 > **Student Name:** \<Rachabanti Ramakrishna\>  
@@ -11,4 +11,4 @@
  ## COIT20261 Network Services and Automation PORTFOLIO 
  
  > [Introduction to GNS3 Basics](./week1.md)
- > [](./week2.md)
+ > [Setting Static IP Addresses](./week2.md)
