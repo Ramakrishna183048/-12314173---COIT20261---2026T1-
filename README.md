@@ -63,9 +63,9 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 | S.N. | Command | **Purpose** |
 |---|---|---|
-| 1 | `ip address show` |  |
-| 2 | `cat /etc/network/interfaces` |  |
-| 3 | `sysctl net.ipv4.ip_forward` |  |
+| 1 | `ip address show` | Displays the current IP address and network interface configuration of the system. |
+| 2 | `cat /etc/network/interfaces` | Shows the contents of the network configuration file. |
+| 3 | `sysctl net.ipv4.ip_forward` | Displays whether IP forwarding is enabled or disabled in the system. |
 
 
 
