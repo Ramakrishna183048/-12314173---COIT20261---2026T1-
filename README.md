@@ -6,7 +6,7 @@
 > **Unit Code:** \<COIT20261\>  
 > **Campus:** \<Rockhampton\>  
 > **Teacher:** \<MD Mamunur Rashid\>
->  **Tutor:** \<Top Pun\>
+> **Tutor:** \<Top Pun\>
 
 
 ## Lab Overview
