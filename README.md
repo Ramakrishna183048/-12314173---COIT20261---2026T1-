@@ -106,7 +106,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 > This screenshot shows the GNS3 workspace with the Linux host node, project title, student details, and IP address label.
 
-![Network Topology]()
+![Network Topology](images/GNS-Intro-12314173-ipaddress.png.png)
 
 ---
 
