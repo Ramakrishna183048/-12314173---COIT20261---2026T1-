@@ -5,7 +5,7 @@
 > **Student ID:** \<12314173\>  
 > **Unit Code:** \<COIT20261\>  
 > **Campus:** \<Rockhampton\>  
-> **Teacher:** \<MD Mamunur Rashid\>
+> **Teacher:** \<MD Mamunur Rashid\>  
 > **Tutor:** \<Top Pun\>
 
 
