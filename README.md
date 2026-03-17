@@ -68,7 +68,24 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 | 3 | `sysctl net.ipv4.ip_forward` | Displays whether IP forwarding is enabled or disabled in the system. |
 
 
+### Example Output: `ip address show`
 
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN qlen 1000
+    link/ether 02:42:b9:24:73:00 brd ff:ff:ff:ff:ff:ff
+    inet 10.10.1.1/24 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:b9ff:fe24:7300/64 scope link
+       valid_lft forever preferred_lft forever
+```
 
 
 
