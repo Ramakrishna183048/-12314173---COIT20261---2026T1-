@@ -1,14 +1,17 @@
-# Network Services and Automation
+# COIT20261 – Network Services and Automation Portfolio
 
-- **Project:** GNS3-Intro-12314173  
+## Student Information
+
 - **Student Name:** Rachabanti Ramakrishna  
 - **Student ID:** 12314173  
 - **Unit Code:** COIT20261  
 - **Campus:** Rockhampton  
 - **Teacher:** MD Mamunur Rashid  
-- **Tutor:** Top Pun
+- **Tutor:** Top Pun  
 
- ## COIT20261 Network Services and Automation Portfolio
- 
- - [Introduction to GNS3 Basics](./week1.md)  
- - [Setting Static IP Addresses](./week2.md)
+---
+
+## Portfolio Contents
+
+- **Week 1:** [Introduction to GNS3 Basics](./week1.md)  
+- **Week 2:** [Setting Static IP Addresses](./week2.md)
