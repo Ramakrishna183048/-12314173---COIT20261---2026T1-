@@ -84,11 +84,11 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 | **Field** | **Value** | **Meaning** |
 |---|---|---|
 | Interface | eth0 | Ethernet interface |
-| State | UP, LOWER_UP | |
+| State | UP, LOWER_UP | Indicates that the interface is active and the physical link is working |
 | MTU | 1500 | Maximum Transmission Unit (standard Ethernet) |
-| MAC Address | 02:42:b9:24:73:00 |  |
+| MAC Address | 02:42:a2:84:36:00 | Unique hardware address assigned to the network interface |
 | IPv4 Address | 10.10.1.1/24 | Static IP address with /24 subnet |
-| IPv6 Address | fe80::42:b9ff:fe24:7300/64 |  |
+| IPv6 Address | fe80::42:a2ff:fe84:3600/64 | Link-local IPv6 address automatically assigned to the interface |
 
 ---
 
