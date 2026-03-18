@@ -124,8 +124,8 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 | **S.N.** | **Skill** | **Description** |
 |---|---|---|
 | 1 | GNS3 Project Setup | Creating new projects and configuring simple network topology |
-| 2 | Linux CLI | Using commands like `ip address show`to inspect network interfaces |
-| 3 | File Editing | Editing the `/etc/network/interfaces` to configure static IP settings |
+| 2 | Linux CLI | Using commands like `ip address show` to inspect network interfaces |
+| 3 | File Editing | Editing the `/etc/network/interfaces` file to configure static IP settings |
 | 4 | Network Verification | Confirming IP settings by reading and interpreting `ip address show` output |
 | 5 | Documentation | Documenting configuration steps, commands, and outputs clearly in the GitHub README file. |
 
