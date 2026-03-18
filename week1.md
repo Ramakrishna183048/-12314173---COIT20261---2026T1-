@@ -1,10 +1,10 @@
 
-
 ## Task 1: Introduction to GNS3 Basics
+
 ## Lab Overview
 This lab introduces the GNS3 network simulator. The objective was to create a simple network project with a single Linux host and understand how network simulation environments work. GNS3 allows users to design, configure, and test network topologies without using physical hardware.
 
-##Host Configuration
+## Host Configuration
 
 | **Step** | **Task** | **Description** | **Status** |
 |---|---|---|---|
@@ -21,7 +21,7 @@ This lab introduces the GNS3 network simulator. The objective was to create a si
 
 ---
 
-##  Network Interface Configuration
+## Network Interface Configuration
 
 ### File: `/etc/network/interfaces`
 
@@ -51,7 +51,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 ---
 
-##  Commands Used
+## Commands Used
 
 | S.N. | Command | **Purpose** |
 |---|---|---|
@@ -59,9 +59,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 | 2 | `cat /etc/network/interfaces` | Shows the contents of the network configuration file. |
 | 3 | `sysctl net.ipv4.ip_forward` | Displays whether IP forwarding is enabled or disabled in the system. |
 
-
 ### Example Output: `ip address show`
-
 
 ```
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
@@ -110,7 +108,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 ---
 
-##  Key Knowledge & Skills Developed
+## Key Knowledge & Skills Developed
 
 ### Networking Concepts
 
@@ -121,23 +119,19 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 | 3 | IP Forwarding | Understanding how IP forwarding allows a system to route packets between networks and how to enable or disable it. |
 | 4 | Network Interfaces |  Understanding how network interfaces (like `eth0`) allow a system to connect and communicate within a network. |
 
-
 ### Technical Skills
 
 | **S.N.** | **Skill** | **Description** |
 |---|---|---|
-| 1 | GNS3 Project Setup | Creating new projects, ... |
-| 2 | Linux CLI | Using commands like `ip address show`,.. |
-| 3 | File Editing | Editing the `/etc/network/interfaces` configuration file to ... |
+| 1 | GNS3 Project Setup | Creating new projects and configuring simple network topology |
+| 2 | Linux CLI | Using commands like `ip address show`to inspect network interfaces |
+| 3 | File Editing | Editing the `/etc/network/interfaces` to configure static IP settings |
 | 4 | Network Verification | Confirming IP settings by reading and interpreting `ip address show` output |
 | 5 | Documentation | Documenting configuration steps, commands, and outputs clearly in the GitHub README file. |
 
-
-
 ---
 
-
-##  Reflection
+## Reflection
 
 ### Key Success or Positive Outcomes?
 
@@ -152,6 +146,5 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 - The configuration changes did not appear immediately. Restarting the node in GNS3 helped apply the network configuration successfully.
 - I initially found it difficult to understand the output of the `ip address show` command. After reviewing the interface details, I was able to identify the IP address, MAC address, and interface status.
 - At first, I was not sure where to edit the network configuration file. I solved this by checking the correct path `/etc/network/interfaces` and editing it in the Linux node.
-
 
 ---
