@@ -13,5 +13,8 @@
 
 ## Portfolio Contents
 
-- **Week 1:** [Introduction to GNS3 Basics](./week1.md)  
-- **Week 2:** [Setting Static IP Addresses](./week2.md)
+- **Week01:** [Introduction to GNS3 Basics](./week01.md)  
+- **Week02:** [Setting Static IP Addresses](./week02.md)
+- **week04:** [](./week04.md)
+- **week05:** [](./week05.md)
+- **week06:** [](./week06.md)
