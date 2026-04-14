@@ -151,13 +151,13 @@ ping -c 3 -s 80 10.10.2.2
 ## 📸 Screenshots
 
 - Basic ping  
-![Ping Simple](images/week02-ping-simple.png)
+![Ping Simple](images/Ping-Basics-12314173-simple.png)
 
 - Ping error  
-![Ping Error](images/week02-ping-error.png)
+![Ping Error](images/Ping-Basics-12314173-error.png)
 
 - Ping with options  
-![Ping Options](images/week02-ping-options.png)
+![Ping Options](images/Ping-Basics-12314173-options.png)
 
 ---
 
