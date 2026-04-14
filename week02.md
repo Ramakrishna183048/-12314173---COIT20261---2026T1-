@@ -110,7 +110,7 @@ This task improved my understanding of different methods to assign IP addresses 
 
 ### 1. Basic Ping
 ```
-ping 10.10.1.2
+ping 10.10.2.2
 ```
 - Successful communication between hosts
 - Observed round-trip time 
