@@ -165,3 +165,11 @@ ping -c 3 -s 80 10.10.2.2
 This task helped me understand how to verify connectivity and measure network performance using ping. I learned how different options affect the behavior of the command and how packet loss indicates connectivity issues.
 
 ---
+## Key Concepts Learned
+
+- Static IP configuration methods
+- Persistent vs temporary network settings
+- Use of ping for connectivity testing
+- Packet loss and its meaning
+
+---
