@@ -11,7 +11,7 @@ This lab introduces the GNS3 network simulator. The objective was to create a si
   - VirtualBox
   - GNS3
 - Created private GitHub repository:
-  - Format: studentID-COIT20261-2026T1
+  - Format: studentID-COIT20261-2026T1(12314173-COIT20261-2026T1)
 - Created initial portfolio file (week01.md)
 
 ### Section B GNS3 Basics
