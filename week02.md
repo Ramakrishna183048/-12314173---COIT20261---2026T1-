@@ -1,5 +1,5 @@
 
-# Week02
+# Week02 – IP Configuration and Network Testing
 
 ## Overview
 
@@ -63,7 +63,7 @@ ip address show
 - All four hosts successfully received unique IP addresses
 - Interfaces were active and correctly configured
 
----
+----
 
 ## Screenshots
 
@@ -82,7 +82,7 @@ ip address show
 - Host4 IP  
 ![Host4](images/Setting-IP-12314173-host4.png)
 
----
+----
 
 ## Reflection (Task 1)
 This task improved my understanding of different methods to assign IP addresses in Linux systems. I learned the difference between permanent configuration using system files and temporary configuration using command-line tools.
