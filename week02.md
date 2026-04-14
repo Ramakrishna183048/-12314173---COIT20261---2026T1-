@@ -13,7 +13,7 @@ In this week, the focus was on configuring static IP addresses using different m
 - Created a GNS3 project named: Setting-IP-12314173
 - Added four Linux hosts and one Ethernet switch
 - Connected all hosts to form a LAN
-- Setting network for them 
+- Assigned IP addresses within the same network
 
 ### IP Configuration Methods
 
@@ -160,12 +160,12 @@ ping -c 3 -s 80 10.10.2.2
 ![Ping Simple](images/Ping-Basics-12314173-simple.png)
 
 #### Screenshot 7: Ping to Invalid Address
- -> This screenshot shows the result of pinging an invalid IP address, resulting in "Destination Host Unreachable" and 100% packet loss.
+ - This screenshot shows the result of pinging an invalid IP address, resulting in "Destination Host Unreachable" and 100% packet loss.
  
 ![Ping Error](images/Ping-Basics-12314173-error.png)
 
 #### Screenshot 8: Ping with Options
--> This screenshot demonstrates the use of ping command with options such as count, interval, and packet size to analyse network performance.
+- This screenshot demonstrates the use of ping command with options such as count, interval, and packet size to analyse network performance.
 
 ![Ping Options](images/Ping-Basics-12314173-options.png)
 
@@ -192,3 +192,6 @@ This task helped me understand how to verify connectivity and measure network pe
 - Understanding how IP addressing enables communication within a network
 - Use of the ping command to test connectivity between hosts
 - Identifying network issues using ping errors like "Destination Host Unreachable"
+
+
+These activities strengthened my understanding of IP configuration and network testing, providing a solid foundation for more advanced networking concepts.
