@@ -59,7 +59,9 @@ Command used:
 ```bash
 ip address show
 ```
-
+### Observations
+- All four hosts successfully received unique IP addresses
+- Interfaces were active and correctly configured
 
 
 
