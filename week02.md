@@ -147,4 +147,21 @@ You can combine options, e.g.:
 ping -c 3 -s 80 10.10.2.2
 ```
 ---
- 
+
+## 📸 Screenshots
+
+- Basic ping  
+![Ping Simple](images/week02-ping-simple.png)
+
+- Ping error  
+![Ping Error](images/week02-ping-error.png)
+
+- Ping with options  
+![Ping Options](images/week02-ping-options.png)
+
+---
+
+## Reflection (Task 2)
+This task helped me understand how to verify connectivity and measure network performance using ping. I learned how different options affect the behavior of the command and how packet loss indicates connectivity issues.
+
+---
