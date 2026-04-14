@@ -84,8 +84,67 @@ ip address show
 
 ---
 
+## Reflection (Task 1)
+This task improved my understanding of different methods to assign IP addresses in Linux systems. I learned the difference between permanent configuration using system files and temporary configuration using command-line tools.
 
+---
+## Task 2: Testing Network Connectivity using Ping
 
+### Activities Performed
+- Tested connectivity between hosts using ping command
+- Ran ping without options and observed output
+- Tested ping to an invalid IP address
+- Used different options such as count, interval, and packet size
 
+---
+## Ping Testing 
 
+### 1. Basic Ping
+```
+ping 10.10.1.2
+```
+
+- Successful communication between hosts
+- Observed round-trip time 
+
+---
+
+### 2. Ping to Invalid Address
+```
+ping 10.10.1.99
+```
+- No response received
+- 100% packet loss observed
+
+---
+
+### 3. Ping with Options
+
+- Limited number of packets sent
+- Modified packet size and interval
+- Observed variation in delay
+
+Limit the count of request messages to 5:
+
+```
+ping -c 5 10.10.2.2
+
+```
+Change the interval between request messages to 2 seconds:
+
+```
+ping -i 2 10.10.2.2
+
+```
+Change the size of the data sent in a request message to 100 Bytes:
+
+```
+ping -s 100 10.10.2.2
+```
+
+You can combine options, e.g.:
+```
+ping -c 3 -s 80 10.10.2.2
+```
+---
  
