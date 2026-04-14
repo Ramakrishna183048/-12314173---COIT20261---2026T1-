@@ -1,8 +1,26 @@
 
-## Task 1: Introduction to GNS3 Basics
-
-## Lab Overview
+## Overview
 This lab introduces the GNS3 network simulator. The objective was to create a simple network project with a single Linux host and understand how network simulation environments work. GNS3 allows users to design, configure, and test network topologies without using physical hardware.
+
+## Tasks Performed
+
+### Section A
+- Installed required tools:
+  - VirtualBox
+  - GNS3
+- Created private GitHub repository:
+  - Format: studentID-COIT20261-2026T1
+- Created initial portfolio file (week01.md)
+
+### Section B GNS3 Basics
+- Created a new project: GNS3-Intro-12314173
+- Added a Linux Host node
+- Added annotations
+- Assigned static IP address 
+- Configured IP using 
+- Started node and opened console
+- Verified IP using command
+
 
 ## Host Configuration
 
