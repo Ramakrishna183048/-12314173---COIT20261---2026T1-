@@ -153,7 +153,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 ## Reflection
 
-### Key Success or Positive Outcomes?
+### Key Success 
 
 - Successfully configured a static IP address on a Linux host within GNS3
 - Gained practical experience using the GNS3 network simulator  
@@ -161,7 +161,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 - Verified network configuration using Linux CLI commands such as `ip address show`
 - Improved understanding of basic networking concepts such as subnet masks and IP forwarding
 
-### Challenges faced and how you solved it?
+### Challenges faced 
 
 - The configuration changes did not appear immediately. Restarting the node in GNS3 helped apply the network configuration successfully.
 - I initially found it difficult to understand the output of the `ip address show` command. After reviewing the interface details, I was able to identify the IP address, MAC address, and interface status.
