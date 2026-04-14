@@ -27,25 +27,25 @@ In this week, the focus was on configuring static IP addresses using different m
 - Restarted network service using:
   commands are:
   
-               nano /etc/network/interfaces
-               ifdown eth0
-               ifup eth0
+  nano /etc/network/interfaces
+  ifdown eth0
+  ifup eth0
 
 #### 3. Using `ip` Command
 - Configured IP address on fourth host using:
   Command used: 
 
-             ip address add <ipaddress>/<mask> dev eth0
+   ip address add <ipaddress>/<mask> dev eth0
 
   For my Host 4 IP address using
 
-             ip address add 10.10.2.4/24 dev eth0
+  ip address add 10.10.2.4/24 dev eth0
 
 ## Testing Results (IP Verification)
 
    Command used:
 
-              ip address show
+   ip address show
   
 
 
