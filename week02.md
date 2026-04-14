@@ -66,20 +66,29 @@ ip address show
 ----
 
 ## Screenshots
-
-- Network topology  
+#### Screenshot 1: Network Topology
+- This screenshot shows the GNS3 network topology with four hosts connected through a switch, each assigned with a unique IP address in the same subnet.
+ 
 ![Network](images/Setting-IP-12314173-network.png)
 
-- Host1 IP  
+ #### Screenshot 2: Host1 IP
+ - This screenshot shows the console output of Host1 displaying its assigned IP address using the `ip address show` command.
+
 ![Host1](images/Setting-IP-12314173-host1.png)
 
-- Host2 IP  
+#### Screenshot 3: Host2 IP
+- This screenshot shows the console output of Host2 confirming its IP address configuration.
+
 ![Host2](images/Setting-IP-12314173-host2.png)
 
-- Host3 IP  
+ #### Screenshot 4: Host3 IP
+- This screenshot shows the console output of Host3 where the IP address was configured using the `/etc/network/interfaces` file.
+
 ![Host3](images/Setting-IP-12314173-host3.png)
 
-- Host4 IP  
+#### Screenshot 5: Host4 IP
+- This screenshot shows the console output of Host4 where the IP address was assigned using the `ip` command.
+- 
 ![Host4](images/Setting-IP-12314173-host4.png)
 
 ----
@@ -95,18 +104,16 @@ This task improved my understanding of different methods to assign IP addresses 
 - Ran ping without options and observed output
 - Tested ping to an invalid IP address
 - Used different options such as count, interval, and packet size
-
 ---
+
 ## Ping Testing 
 
 ### 1. Basic Ping
 ```
 ping 10.10.1.2
 ```
-
 - Successful communication between hosts
 - Observed round-trip time 
-
 ---
 
 ### 2. Ping to Invalid Address
@@ -115,7 +122,6 @@ ping 10.10.2.99
 ```
 - No response received
 - 100% packet loss observed
-
 ---
 
 ### 3. Ping with Options
@@ -128,13 +134,11 @@ Limit the count of request messages to 5:
 
 ```
 ping -c 5 10.10.2.2
-
 ```
 Change the interval between request messages to 2 seconds:
 
 ```
 ping -i 2 10.10.2.2
-
 ```
 Change the size of the data sent in a request message to 100 Bytes:
 
@@ -150,13 +154,19 @@ ping -c 3 -s 80 10.10.2.2
 
 ## 📸 Screenshots
 
-- Basic ping  
+#### Screenshot 6: Simple Ping  
+- This screenshot shows a successful ping test between two hosts, confirming network connectivity within the same subnet.
+  
 ![Ping Simple](images/Ping-Basics-12314173-simple.png)
 
-- Ping error  
+#### Screenshot 7: Ping to Invalid Address
+ -> This screenshot shows the result of pinging an invalid IP address, resulting in "Destination Host Unreachable" and 100% packet loss.
+ 
 ![Ping Error](images/Ping-Basics-12314173-error.png)
 
-- Ping with options  
+#### Screenshot 8: Ping with Options
+-> This screenshot demonstrates the use of ping command with options such as count, interval, and packet size to analyse network performance.
+
 ![Ping Options](images/Ping-Basics-12314173-options.png)
 
 ---
