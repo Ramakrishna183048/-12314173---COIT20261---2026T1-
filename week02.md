@@ -63,11 +63,26 @@ ip address show
 - All four hosts successfully received unique IP addresses
 - Interfaces were active and correctly configured
 
+---
 
+## Screenshots
 
+- Network topology  
+![Network](images/week02-network.png)
 
+- Host1 IP  
+![Host1](images/week02-host1.png)
 
+- Host2 IP  
+![Host2](images/week02-host2.png)
 
+- Host3 IP  
+![Host3](images/week02-host3.png)
+
+- Host4 IP  
+![Host4](images/week02-host4.png)
+
+---
 
 
 
