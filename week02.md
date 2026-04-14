@@ -111,7 +111,7 @@ ping 10.10.1.2
 
 ### 2. Ping to Invalid Address
 ```
-ping 10.10.1.99
+ping 10.10.2.99
 ```
 - No response received
 - 100% packet loss observed
@@ -172,4 +172,13 @@ This task helped me understand how to verify connectivity and measure network pe
 - Use of ping for connectivity testing
 - Packet loss and its meaning
 
----
+## Key Knowledge
+
+- Understanding how to assign static IP addresses using multiple methods in Linux systems
+- Difference between persistent configuration (/etc/network/interfaces) and temporary configuration (ip command)
+- Basic structure and purpose of the /etc/network/interfaces file
+- Importance of restarting network services after modifying configuration files
+- Using "ip address show" to verify IP address assignment
+- Understanding how IP addressing enables communication within a network
+- Use of the ping command to test connectivity between hosts
+- Identifying network issues using ping errors like "Destination Host Unreachable"
