@@ -15,6 +15,6 @@
 
 - **Week01:** [Introduction to GNS3 Basics](./week01.md)  
 - **Week02:** [Setting Static IP Addresses](./week02.md)
-- **week04:** [](./week04.md)
+- **week04:** [ Routing Tables and OSPF](./week04.md)
 - **week05:** [](./week05.md)
 - **week06:** [](./week06.md)
