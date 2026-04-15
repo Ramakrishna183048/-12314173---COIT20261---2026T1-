@@ -107,3 +107,38 @@ This screenshot shows successful communication between hosts across different su
 ![Ping Test](./images/View-Routers-12314173-ping.png)
 
 ---
+## Reflection (Task 1)
+
+This task helped me understand how routers enable communication between different networks. I learned the importance of routing tables and how default gateways are used to forward packets. It also improved my understanding of IP forwarding and network segmentation.
+
+# Task 2: Dynamic Routing with OSPF
+
+-To observe how dynamic routing works and how OSPF adapts to changes in the network.
+
+#### Activities Performed
+-project as OSPF-Basics-12314173
+-Started all nodes and waited for routers to boot
+-Accessed router console using vtysh
+-Executed OSPF commands to observe routing information
+-Observed path change using traceroute
+
+#### OSPF Commands Used
+```
+show ip ospf neighbor
+show ip ospf route
+show ip route
+```
+### Results
+
+#### OSPF Neighbours
+
+-Routers discovered neighbouring routers automatically
+-All neighbours reached FULL state
+
+#### Routing Tables
+
+-Routes were dynamically learned
+-Multiple paths available for some destinations
+
+
+
