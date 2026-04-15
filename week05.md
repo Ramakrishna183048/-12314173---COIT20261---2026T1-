@@ -29,11 +29,16 @@ All hosts are connected to a single switch.
 
 ---
 ### VLAN 
-
 The switch ports were divided into two VLANs:
 
 - VLAN 10 → Host1, Host2 (eth1, eth2)
 - VLAN 20 → Host3, Host4 (eth3, eth4)
+
+### Switch VLAN Configuration (Ports & Tags)
+
+![Vlan ports](./images/Vlan-Basics-12314173-ports.png)
+
+![Vlan Tags](./images/Vlan-Basics-12314173-tags.png)
 
 Commands used:
 ```bash
@@ -92,6 +97,11 @@ Enabled interfaces:
 ip link set eth0.10 up
 ip link set eth0.20 up
 ```
+
+### Network Topology Screenshot
+
+![Vlan-Router network](./images/Vlan-Router-12314173-network.png)
+
 #### For Verification
 
 ```
@@ -102,6 +112,13 @@ ip route show
  ```
 ovs-vsctl set port eth0 trunks=10,20
 ```
+### Vlan-Router Ports
+![Vlan-Router Ports](./images/Vlan-Router-12314173-ports.png)
+
+### Vlan-Router Tags 
+
+![Vlan-Router switch Tags](./images/Vlan-Router-12314173-tags.png)
+
 ### Testing 
 
 Hosts from different VLANs were able to communicate
