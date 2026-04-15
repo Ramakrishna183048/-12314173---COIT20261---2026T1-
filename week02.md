@@ -1,5 +1,5 @@
 
-# Week02 – IP Configuration and Network Testing
+# week02 – IP Configuration and Network Testing
 
 ## Overview
 
