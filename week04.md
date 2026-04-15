@@ -1,4 +1,4 @@
-# Week 04 – Routing Tables and OSPF
+# Week04 – Routing Tables and OSPF
 
 ## Overview
 This week focused on understanding how routing works in networks. The first task involved configuring a router and hosts across two subnets and analysing routing tables. The second task explored dynamic routing using OSPF, where routers automatically exchange routing information and adapt to network changes.
@@ -29,7 +29,7 @@ To understand how routing tables work and how a router forwards packets between 
 
 ---
 
-## ⚙️ Configuration Details
+## Configuration Details
 
 ###  Host 1 Configuration
 
@@ -111,6 +111,8 @@ This screenshot shows successful communication between hosts across different su
 
 This task helped me understand how routers enable communication between different networks. I learned the importance of routing tables and how default gateways are used to forward packets. It also improved my understanding of IP forwarding and network segmentation.
 
+----
+
 # Task 2: Dynamic Routing with OSPF
 
 -To observe how dynamic routing works and how OSPF adapts to changes in the network.
@@ -128,34 +130,62 @@ show ip ospf neighbor
 show ip ospf route
 show ip route
 ```
-### Results
+## Results
 
-#### OSPF Network Screenshot
+### OSPF Network Screenshot
 
 ![OSPF Network](./images/OSPF-Basics-12314173-network.png)
 
-#### OSPF Neighbours
+### OSPF Neighbours
 
 -Routers successfully discovered neighbouring routers and formed adjacency relationships. All neighbours reached the FULL state, indicating proper OSPF communication.
 
 ![OSPF Neighbor](./images/OSPF-12314173-FRR1-neighbor.png)
 
-#### Routing Tables
+### Routing Tables
 
 -Routes were dynamically learned
 -Multiple paths available for some destinations
 
-#### Routing Table (Router 1 - FRR1)
+### Routing Table (Router 1 - FRR1)
 
-Routing table shows directly connected networks and dynamically learned routes.
+-Routing table shows directly connected networks and dynamically learned routes.
 
 ![Routing Table FRR1](./images/OSPF-12314173-FRR1-routing.png)
 
-#### Routing Table (Router 2 - FRR2 / FRR3)
+### Routing Table (Router 2 - FRR2 / FRR3)
 
-Second router also shows dynamically learned routes through OSPF.
+-Second router also shows dynamically learned routes through OSPF.
 
 ![Routing Table FRR2](./images/OSPF-12314173-FRR2-routing.png)
+
+### Routing Summary Table
+
+<<<<<<<<<<<<<<<<screenshothere>>>>>>>>>>>>>>>
+
+## 6. Traceroute Before and After Link Failure
+
+### Before Link Failure
+
+-Traceroute was performed from Host1 to Host2 (10.10.6.102) while all links were active.
+
+```bash
+traceroute 10.10.6.102
+```
+[Traceroute Before](./images/OSPF-12314173-traceroute-before.png)
+
+### After Link Failure (NETem node stopped)
+
+-After stopping the NETem node, the original path was broken. OSPF automatically recalculated the route and selected an alternative path
+
+```bash
+traceroute 10.10.6.102
+```
+[Traceroute After](./images/OSPF-12314173-traceroute-after.png)
+
+
+
+
 
 
 
