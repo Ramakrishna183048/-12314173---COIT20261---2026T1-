@@ -104,6 +104,6 @@ This screenshot shows routing tables of hosts and router.
 
 This screenshot shows successful communication between hosts across different subnets.
 
-![Ping Test](./images/View-Routes-12314173-ping.png)
+![Ping Test](./images/View-Routers-12314173-ping.png)
 
 ---
