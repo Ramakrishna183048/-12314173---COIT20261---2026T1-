@@ -15,6 +15,24 @@ In this week, the focus was on configuring static IP addresses using different m
 - Connected all hosts to form a LAN
 - Assigned IP addresses within the same network
 
+## Host Configuration
+
+| **Step** | **Task** | **Description** | **Status** |
+|---|---|---|---|
+| 1 | Create New Project | Created project named `Setting-IP-12314173` in GNS3 | Done |
+| 2 | Add Network Devices | Added four Linux hosts and one Ethernet switch to the workspace | Done |
+| 3 | Connect Network | Connected all hosts to the switch to form a LAN | Done |
+| 4 | Select Network Address | Selected IPv4 network `10.10.2.0/24` for all hosts | Done |
+| 5 | Configure Host1 & Host2 | Assigned static IP addresses using GNS3 Configure menu before starting nodes | Done |
+| 6 | Start All Nodes | Started all four hosts in GNS3 | Done |
+| 7 | Configure Host3 (Manual File) | Edited `/etc/network/interfaces` to assign static IP address | Done |
+| 8 | Restart Network Service | Used `ifdown eth0` and `ifup eth0` to apply configuration changes | Done |
+| 9 | Configure Host4 (ip Command) | Assigned IP using `ip address add` command | Done |
+| 10 | Verify IP Addresses | Used `ip address show` to verify configuration on all hosts | Done |
+| 11 | Test Connectivity | Used `ping` to test communication between hosts | Done |
+| 12 | Test Invalid Address | Performed ping to a non-existing IP to observe packet loss | Done |
+| 13 | Record Outputs | Captured screenshots of network and host configurations | Done |
+
 ### IP Configuration Methods
 
 #### 1. Using GNS3 Configure Menu
