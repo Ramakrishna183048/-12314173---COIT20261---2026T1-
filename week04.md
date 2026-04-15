@@ -161,7 +161,49 @@ show ip route
 
 ### Routing Summary Table
 
-<<<<<<<<<<<<<<<<screenshothere>>>>>>>>>>>>>>>
+### FRR1
+
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.1.0/24 | Directly connected |
+| 10.10.2.0/24 | Directly connected |
+| 10.10.3.0/24 | Directly connected |
+| 10.10.4.0/24 | via 10.10.2.2 |
+| 10.10.5.0/24 | via 10.10.3.3 |
+| 10.10.6.0/24 | via 10.10.2.2 / via 10.10.3.3 |
+
+### FRR2
+
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.2.0/24 | Directly connected |
+| 10.10.4.0/24 | Directly connected |
+| 10.10.1.0/24 | via 10.10.2.1 |
+| 10.10.3.0/24 | via 10.10.2.1 |
+| 10.10.5.0/24 | via 10.10.4.4 |
+| 10.10.6.0/24 | via 10.10.4.4 |
+
+### FRR3
+
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.3.0/24 | Directly connected |
+| 10.10.5.0/24 | Directly connected |
+| 10.10.1.0/24 | via 10.10.3.1 |
+| 10.10.2.0/24 | via 10.10.3.1 |
+| 10.10.4.0/24 | via 10.10.5.4 |
+| 10.10.6.0/24 | via 10.10.5.4 |
+
+### FRR4
+
+| Destination | Next Node |
+|------------|-----------|
+| 10.10.4.0/24 | Directly connected |
+| 10.10.5.0/24 | Directly connected |
+| 10.10.6.0/24 | Directly connected |
+| 10.10.2.0/24 | via 10.10.4.2 |
+| 10.10.3.0/24 | via 10.10.5.3 |
+| 10.10.1.0/24 | via 10.10.4.2 / via 10.10.5.3 |
 
 ## 6. Traceroute Before and After Link Failure
 
