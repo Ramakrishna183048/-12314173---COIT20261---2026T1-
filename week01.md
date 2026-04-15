@@ -107,9 +107,7 @@ IP forwarding is disabled to ensure that the Linux node operates only as a host 
 
 ---
 
-### Screenshot 2: Console Output — IP Address Verification
-
-> This screenshot shows the web console output of the `ip address show` command, confirming the static IP address `10.10.1.1` is correctly assigned to eth0.
+### Screenshot IP Address
 
 ![IP Address Console](images/GNS-Intro-12314173-ipaddress.png.png)
 
