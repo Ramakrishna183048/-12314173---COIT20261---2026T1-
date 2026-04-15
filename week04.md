@@ -233,6 +233,17 @@ traceroute 10.10.6.102
 -Observed how OSPF provides automatic failover when a network link is disconnected.
 -Improved skills in verifying network behaviour using commands like traceroute and routing table checks.
 
+----
+### Key Concepts Learned
+
+Static Network Configuration
+-Understood how to configure IP addresses, gateways, and enable IP forwarding for inter-network communication.
+
+Difference Between Static and Dynamic Routing
+-Gained knowledge of how static routing requires manual setup, while OSPF dynamically updates routes.
+
+OSPF Neighbour Formation and Route Learning
+-Learned how routers form OSPF adjacencies and automatically exchange routing information.
 
 
 
