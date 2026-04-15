@@ -138,6 +138,8 @@ show ip route
 
 -Routers successfully discovered neighbouring routers and formed adjacency relationships. All neighbours reached the FULL state, indicating proper OSPF communication.
 
+![OSPF Neighbor](./images/OSPF-12314173-FRR1-neighbor.png)
+
 #### Routing Tables
 
 -Routes were dynamically learned
