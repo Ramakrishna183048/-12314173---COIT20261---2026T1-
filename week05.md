@@ -20,20 +20,20 @@ To divide a network into separate VLANs using a managed switch and observe how V
 ![Network](images/Vlan-Basics-12314173-network.png)
 
 IP Address are:
+```
 - Host1 → 10.10.1.73  
 - Host2 → 10.10.1.74  
 - Host3 → 10.10.1.75  
 - Host4 → 10.10.1.76  
-
+```
 All hosts are connected to a single switch.
 
----
 ### VLAN 
 The switch ports were divided into two VLANs:
-
+```
 - VLAN 10 → Host1, Host2 (eth1, eth2)
 - VLAN 20 → Host3, Host4 (eth3, eth4)
-
+```
 ### VLAN Ports Configuration
 
 ![Ports](./images/Vlan-Basics-12314173-ports.png)
