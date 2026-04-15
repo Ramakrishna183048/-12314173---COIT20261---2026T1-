@@ -1,5 +1,5 @@
 
-# Week 06 – ARP and Default Gateway Configuration
+# week06 – ARP and Default Gateway Configuration
 
 ## Overview
 
