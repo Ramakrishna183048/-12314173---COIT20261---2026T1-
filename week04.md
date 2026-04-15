@@ -172,7 +172,7 @@ show ip route
 ```bash
 traceroute 10.10.6.102
 ```
-[Traceroute Before](./images/OSPF-12314173-traceroute-before.png)
+[Traceroute Before](./images/OSPF-Basics-12314173-traceroute-before.png)
 
 ### After Link Failure (NETem node stopped)
 
@@ -181,7 +181,7 @@ traceroute 10.10.6.102
 ```bash
 traceroute 10.10.6.102
 ```
-[Traceroute After](./images/OSPF-12314173-traceroute-after.png)
+[Traceroute After](./images/OSPF-Basics-12314173-traceroute-after.png)
 
 
 
