@@ -15,6 +15,29 @@ To divide a network into separate VLANs using a managed switch and observe how V
 - Hosts connected to ports: eth1 to eth4
 - All hosts initially assigned IP addresses in the same subnet
 
+## Host Configuration
+
+| **Step** | **Task** | **Description** | **Status** |
+|---|---|---|---|
+| 1 | Create VLAN Project | Created project `Vlan-Basics-12314173` in GNS3 | Done |
+| 2 | Add Network Devices | Added four Linux hosts and one OpenvSwitch | Done |
+| 3 | Connect Hosts | Connected all hosts to switch ports `eth1` to `eth4` | Done |
+| 4 | Assign IP Addresses | Configured all hosts with IP addresses in same subnet | Done |
+| 5 | Start Nodes | Started all hosts and switch in GNS3 | Done |
+| 6 | Test Initial Connectivity | Verified all hosts can communicate before VLAN configuration | Done |
+| 7 | Configure VLANs (Access Ports) | Assigned VLAN 10 to `eth1`, `eth2` and VLAN 20 to `eth3`, `eth4` | Done |
+| 8 | Verify VLAN Configuration | Used `ovs-vsctl show` to check port tags | Done |
+| 9 | Test VLAN Isolation | Verified communication fails between different VLANs | Done |
+| 10 | Create Router Project | Created project `Vlan-Router-12314173` for inter-VLAN routing | Done |
+| 11 | Add Router | Added Linux router and connected to switch via `eth0` | Done |
+| 12 | Configure VLAN Sub-Interfaces | Created `eth0.10` and `eth0.20` interfaces on router | Done |
+| 13 | Assign VLAN IP Addresses | Assigned IP addresses to VLAN sub-interfaces on router | Done |
+| 14 | Enable Interfaces | Activated router VLAN interfaces using `ip link set` | Done |
+| 15 | Configure Trunk Port | Configured switch port `eth0` as trunk for VLAN 10 and 20 | Done |
+| 16 | Verify Routing | Checked routing using `ip address show` and `ip route show` | Done |
+| 17 | Test Inter-VLAN Connectivity | Verified hosts in different VLANs can communicate via router | Done |
+| 18 | Record Outputs | Captured required screenshots for network and VLAN configuration | Done |
+
 ###  Network Topology
 
 ![Network](images/Vlan-Basics-12314173-network.png)
