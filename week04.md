@@ -225,7 +225,13 @@ traceroute 10.10.6.102
 ```
 ![Traceroute After](./images/OSPF-Basics-12314173-traceroute-after.png)
 
+### Reflection (Task 2)
 
+-Learned how to configure and enable OSPF for dynamic routing between routers.
+-Understood how routers automatically exchange routing information using OSPF.
+-Gained experience in troubleshooting issues like OSPF not running and zebra errors.
+-Observed how OSPF provides automatic failover when a network link is disconnected.
+-Improved skills in verifying network behaviour using commands like traceroute and routing table checks.
 
 
 
