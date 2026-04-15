@@ -14,7 +14,7 @@ This lab introduces the GNS3 network simulator. The objective was to create a si
   - Format: studentID-COIT20261-2026T1(12314173-COIT20261-2026T1)
 - Created initial portfolio file (week01.md)
 
-### Section B GNS3 Basics
+### Section B: GNS3 Basics
 - Created a new project: GNS3-Intro-12314173
 - Added a Linux Host node
 - Added annotations
