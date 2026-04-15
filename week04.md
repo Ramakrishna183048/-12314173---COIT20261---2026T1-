@@ -1,4 +1,4 @@
-# Week04 – Routing Tables and OSPF
+# week04 – Routing Tables and OSPF
 
 ## Overview
 This week focused on understanding how routing works in networks. The first task involved configuring a router and hosts across two subnets and analysing routing tables. The second task explored dynamic routing using OSPF, where routers automatically exchange routing information and adapt to network changes.
