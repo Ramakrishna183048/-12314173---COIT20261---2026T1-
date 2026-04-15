@@ -34,9 +34,9 @@ The switch ports were divided into two VLANs:
 - VLAN 10 → Host1, Host2 (eth1, eth2)
 - VLAN 20 → Host3, Host4 (eth3, eth4)
 
-### Switch VLAN Configuration (Ports & Tags)
+### VLAN Ports Configuration
 
-![Vlan ports](./images/Vlan-Basics-12314173-ports.png)
+![Ports](./images/Vlan-Basics-12314173-ports.png)
 
 Commands used:
 ```bash
@@ -70,10 +70,7 @@ To enable communication between VLANs using a router.
 
 ### Network setup
 
-- 4 Linux Hosts connected to an OpenvSwitch
-- Hosts connected to ports: eth1 to eth4
-- All hosts initially assigned IP addresses in the same subnet
-- Router connected to switch via eth0.
+-Hosts were divided into two different subnets based on VLAN assignment.
 
 ### Router Configuration
 
@@ -82,7 +79,7 @@ Created VLAN sub-interfaces:
 ip link add link eth0 name eth0.10 type vlan id 10
 ip link add link eth0 name eth0.20 type vlan id 20
 ```
-#### Assigned IP addresses:
+#### Assigned Gateway IP:
 ```
 ip address add 10.10.1.73/24 dev eth0.10
 ip address add 10.10.1.74/24 dev eth0.10
