@@ -130,6 +130,10 @@ show ip route
 ```
 ### Results
 
+#### OSPF Network Screenshot
+
+![OSPF Network](./images/OSPF-Basics-12314173-network.png)
+
 #### OSPF Neighbours
 
 -Routers successfully discovered neighbouring routers and formed adjacency relationships. All neighbours reached the FULL state, indicating proper OSPF communication.
