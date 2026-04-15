@@ -145,19 +145,17 @@ show ip route
 -Routes were dynamically learned
 -Multiple paths available for some destinations
 
-
 #### Routing Table (Router 1 - FRR1)
 
 Routing table shows directly connected networks and dynamically learned routes.
 
-Screenshot
-
+![Routing Table FRR1](./images/OSPF-12314173-FRR1-routing.png)
 
 #### Routing Table (Router 2 - FRR2 / FRR3)
 
 Second router also shows dynamically learned routes through OSPF.
 
-Screenshot
+![Routing Table FRR2](./images/OSPF-12314173-FRR2-routing.png)
 
 
 
