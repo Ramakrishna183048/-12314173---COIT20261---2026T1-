@@ -132,13 +132,26 @@ show ip route
 
 #### OSPF Neighbours
 
--Routers discovered neighbouring routers automatically
--All neighbours reached FULL state
+-Routers successfully discovered neighbouring routers and formed adjacency relationships. All neighbours reached the FULL state, indicating proper OSPF communication.
 
 #### Routing Tables
 
 -Routes were dynamically learned
 -Multiple paths available for some destinations
+
+
+#### Routing Table (Router 1 - FRR1)
+
+Routing table shows directly connected networks and dynamically learned routes.
+
+Screenshot
+
+
+#### Routing Table (Router 2 - FRR2 / FRR3)
+
+Second router also shows dynamically learned routes through OSPF.
+
+Screenshot
 
 
 
