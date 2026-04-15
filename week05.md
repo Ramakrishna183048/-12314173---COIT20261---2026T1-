@@ -5,7 +5,6 @@
 In this week, I explored how Virtual LANs (VLANs) are configured on a switch and how a router can be used to enable communication between different VLANs. The tasks focused on segmenting a network and then restoring connectivity using routing techniques.
 
 ---
-
 ## Task 1: VLAN Configuration on Switch
 
 ### Objective
@@ -45,8 +44,93 @@ ovs-vsctl set port eth4 tag=20
 ```
 For Verification
 
-Command used
+Command used:
 ```baash
 ovs-vsctl show
 ```
+#### Testing 
+
+Communication within same VLAN was successful
+Communication between VLAN 10 and VLAN 20 failed
+This confirms VLAN isolation
+
+## Reflection (Task 1)
+
+This task demonstrated how VLANs can logically divide a network even when all devices are connected to the same switch. It clearly showed that VLANs prevent communication across groups unless routing is introduced.
+
+-----
+
+## Task 2: Inter-VLAN Routing
+
+### Objective
+To enable communication between VLANs using a router.
+
+### Network setup
+
+- 4 Linux Hosts connected to an OpenvSwitch
+- Hosts connected to ports: eth1 to eth4
+- All hosts initially assigned IP addresses in the same subnet
+- Router connected to switch via eth0.
+
+### Router Configuration
+
+Created VLAN sub-interfaces:
+```bash
+ip link add link eth0 name eth0.10 type vlan id 10
+ip link add link eth0 name eth0.20 type vlan id 20
+```
+#### Assigned IP addresses:
+```
+ip address add 10.10.1.73/24 dev eth0.10
+ip address add 10.10.1.74/24 dev eth0.10
+
+ip address add 10.10.1.75/24 dev eth0.20
+ip address add 10.10.1.76/24 dev eth0.20
+```
+Enabled interfaces:
+```
+ip link set eth0.10 up
+ip link set eth0.20 up
+```
+#### For Verification
+
+```
+ip address show
+ip route show
+```
+#### Switch Trunk Configuration
+ ```
+ovs-vsctl set port eth0 trunks=10,20
+```
+### Testing 
+
+Hosts from different VLANs were able to communicate
+Router successfully forwarded traffic between VLANs
+Verified using routing table and IP configuration
+
+## Reflection (Task 2)
+
+This task helped me understand how routers are used to connect multiple VLANs. I learned how VLAN tagging works and how a single physical interface can support multiple VLANs using sub-interfaces.
+
+-----
+
+### Key Concepts Learned
+
+VLAN segmentation isolates network traffic
+Access ports belong to a single VLAN
+Trunk ports carry multiple VLANs
+VLAN tagging enables logical separation
+Router-on-a-stick enables inter-VLAN routing
+
+### Key Knowledge
+
+VLAN IDs are used to identify network segments
+Switch configuration controls VLAN membership
+Routers are required for VLAN communication
+Sub-interfaces allow multiple VLANs on one interface
+Proper IP addressing ensures correct routing
+
+
+
+
 
