@@ -31,6 +31,23 @@ To understand how routing tables work and how a router forwards packets between 
 
 ## Configuration Details
 
+| **Step** | **Task** | **Description** | **Status** |
+|---|---|---|---|
+| 1 | Create New Project | Created project named `View-Routes-12314173` in GNS3 | Done |
+| 2 | Add Network Devices | Added three Linux hosts, one Linux router, and one Ethernet switch | Done |
+| 3 | Connect Network | Connected all devices to form two subnets using a switch and router | Done |
+| 4 | Design Subnets | Configured two subnets: `10.10.1.0/24` and `10.10.2.0/24` | Done |
+| 5 | Configure Host1 | Assigned static IP address and gateway using `/etc/network/interfaces` | Done |
+| 6 | Configure Host2 | Assigned static IP address and gateway using `/etc/network/interfaces` | Done |
+| 7 | Configure Host3 | Assigned static IP address and gateway in second subnet | Done |
+| 8 | Configure Router Interfaces | Assigned IP addresses to router interfaces for both subnets | Done |
+| 9 | Enable IP Forwarding (Router) | Enabled packet forwarding using `sysctl net.ipv4.ip_forward=1` | Done |
+| 10 | Disable IP Forwarding (Hosts) | Ensured hosts do not forward packets (`ip_forward=0`) | Done |
+| 11 | Start All Nodes | Started all devices in GNS3 | Done |
+| 12 | Verify Routing Tables | Used `ip route show` to view routing tables on hosts and router | Done |
+| 13 | Test Connectivity | Used `ping` to verify communication between subnets | Done |
+| 14 | Record Outputs | Captured screenshots of network, routing tables, and ping results | Done |
+
 ###  Host 1 Configuration
 
 ```bash
