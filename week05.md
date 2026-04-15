@@ -1,5 +1,5 @@
 
-# Week 05 – VLAN Configuration on Switch and Router
+# week05 – VLAN Configuration on Switch and Router
 
 ## Overview
 In this week, I explored how Virtual LANs (VLANs) are configured on a switch and how a router can be used to enable communication between different VLANs. The tasks focused on segmenting a network and then restoring connectivity using routing techniques.
