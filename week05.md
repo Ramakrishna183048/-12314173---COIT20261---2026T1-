@@ -38,8 +38,6 @@ The switch ports were divided into two VLANs:
 
 ![Vlan ports](./images/Vlan-Basics-12314173-ports.png)
 
-![Vlan Tags](./images/Vlan-Basics-12314173-tags.png)
-
 Commands used:
 ```bash
 ovs-vsctl set port eth1 tag=10
