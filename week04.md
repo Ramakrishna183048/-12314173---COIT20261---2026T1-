@@ -92,7 +92,7 @@ ip route show
 
 This screenshot shows the network with three hosts and one router forming two subnets.
 
-![Network Topology](./)
+![Network Topology](./images/View-Routes-12314173-network.png)
 
 #### Screenshot Routing Table Output
 
