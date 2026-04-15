@@ -234,7 +234,7 @@ traceroute 10.10.6.102
 -Improved skills in verifying network behaviour using commands like traceroute and routing table checks.
 
 ----
-### Key Concepts Learned
+### Concepts Learned
 
 Static Network Configuration
 -Understood how to configure IP addresses, gateways, and enable IP forwarding for inter-network communication.
@@ -245,6 +245,14 @@ Difference Between Static and Dynamic Routing
 OSPF Neighbour Formation and Route Learning
 -Learned how routers form OSPF adjacencies and automatically exchange routing information.
 
+----
 
+### Key Knowledge
+
+-Understanding how routing tables store destination networks and next-hop information for packet forwarding.
+-Knowledge of configuring static IP addressing, gateways, and enabling/disabling IP forwarding.
+-Concept of dynamic routing using OSPF, where routers automatically exchange route information.
+-Awareness of OSPF neighbour relationships and route propagation across multiple routers.
+-Understanding of network resilience, where OSPF provides alternate paths and ensures connectivity during link failures.
 
 
