@@ -98,12 +98,12 @@ This screenshot shows the network with three hosts and one router forming two su
 
 This screenshot shows routing tables of hosts and router.
 
-![Routing Table](./)
+![Routing Table](./images/View-Routes-12314173-routing.png)
 
 #### Screenshot Ping Test
 
 This screenshot shows successful communication between hosts across different subnets.
 
-![Ping Test](./)
+![Ping Test](./images/View-Routes-12314173-ping.png)
 
 ---
