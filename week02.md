@@ -82,6 +82,12 @@ ip address show
 - Interfaces were active and correctly configured
 
 ----
+## Week 02 – IP Configuration and Network Testing File
+
+> You can find my Week 02 project files using the link below.
+> This includes the IP configuration setup and the network testing results completed during this lab.
+>
+> [IP Configuration and Network Testing](./)
 
 ## Screenshots
 #### Screenshot 1: Network Topology
