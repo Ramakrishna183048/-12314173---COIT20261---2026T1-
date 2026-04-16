@@ -25,6 +25,7 @@ ping <destination-ip>
 ```
 
 ### Activities Performed
+
 Viewed ARP table on Host A before communication
 Pinged Host B from Host A
 Viewed ARP table again and observed new entry
@@ -40,6 +41,10 @@ Observed ARP table changes again
 → Shows how IP addresses are resolved to MAC addresses using ARP and how the ARP table updates during communication.
 
 ## Screenshots
+
+![ARP Host1](./)
+
+![ARP Host2](./)
 
 ---
 
@@ -83,7 +88,9 @@ To configure default gateways and enable communication between multiple subnets.
 ![Network](./)
 
 **Routing Tables**  
-![Routing](./)
+
+![Routing Host1](./)
+![Routing Host2](./)
 
 **Ping Test**  
 ![Ping](./)
