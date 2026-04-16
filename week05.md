@@ -127,7 +127,7 @@ ip link set eth0.20 up
 
 > You can find the project files for both tasks completed in this week below. These files include VLAN setup on the switch > and the inter-VLAN routing configuration.
 >
-> [VLAN Router Project File](./)
+> [VLAN Router Project File](./images/Vlan-Router-12314173.gns3project)
 
 ### Network Topology Screenshot
 
