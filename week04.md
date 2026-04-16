@@ -157,6 +157,13 @@ show ip ospf neighbor
 show ip ospf route
 show ip route
 ```
+## Week 04 – Project Files
+
+> You can find my Week 04 GNS3 project file using the link below.
+> This includes the IP configuration setup and related work completed for this lab.
+>
+> [OSPF Project File](./)
+
 ## Results
 
 ### OSPF Network Screenshot
