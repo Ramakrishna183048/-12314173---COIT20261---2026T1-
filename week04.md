@@ -111,7 +111,7 @@ ip route show
 > You can find my Week 04 GNS3 project file using the link below.
 > This includes the IP configuration setup and related work completed for this lab.
 >
-> [View-Routes Files](./)
+> [View-Routes Project Files](./images/View-Routes-12314173.gns3project)
 
 ## Screenshots
 
