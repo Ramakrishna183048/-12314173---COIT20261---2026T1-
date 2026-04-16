@@ -93,7 +93,7 @@ To configure default gateways and enable communication between multiple subnets.
 ![Routing Host2](./)
 
 **Ping Test**  
-![Ping](./)
+![Ping](./images/Default-Gateway-12314173-ping.png)
 
 ### Reflection (Task 2)
 
