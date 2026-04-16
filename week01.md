@@ -1,5 +1,5 @@
 
-# week01 – Introduction to GNS3 and Network Setup
+# Week01 – Introduction to GNS3 and Network Setup
 
 ## Overview
 This lab introduces the GNS3 network simulator. The objective was to create a simple network project with a single Linux host and understand how network simulation environments work. GNS3 allows users to design, configure, and test network topologies without using physical hardware.
@@ -94,14 +94,14 @@ sysctl net.ipv4.ip_forward
 → Checks the status of IP forwarding, indicating whether the system is configured to route packets between interfaces.
 
 
-## **Week 01 – Project Files**
+## Week 01 – Project Files
 
 > The complete GNS3 project file for Week 01 can be accessed using the link below.
 >  It includes the configured Linux host, static IP setup, and required annotations for the lab task.
 >
 >  [GNS3 NETWORK PROJECT FILE](./)
 
-## Screenshots 
+## Output Screenshots 
 
 ### Screenshot 1: GNS3 Network Topology
 
