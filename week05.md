@@ -134,7 +134,6 @@ ip link set eth0.20 up
 ![Vlan-Router network](./images/Vlan-Router-12314173-network.png)
 
 #### For Verification
-
 ```
 ip address show
 ip route show
