@@ -42,10 +42,11 @@ Observed ARP table changes again
 
 ## Screenshots
 
-![ARP Host1](./)
+![ARP HostA Table1](./)
 
-![ARP Host2](./)
+![ARP HostA Table2](./)
 
+![ARP HostA Table3](./)
 ---
 
 ###  Reflection (Task 1)
