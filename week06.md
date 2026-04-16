@@ -35,7 +35,7 @@ Observed ARP table changes again
 
 > You can find the project files and outputs for both ARP analysis and default gateway configuration below. These include    ARP table observations, ping results, and routing setup across multiple subnets.
 
-> [ARP Configuration Project File](./)
+> [ARP Configuration Project File](./images/ARP-Basics-12314173.gns3project)
 > 
 → Shows how IP addresses are resolved to MAC addresses using ARP and how the ARP table updates during communication.
 
