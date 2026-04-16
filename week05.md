@@ -106,17 +106,17 @@ To enable communication between VLANs using a router.
 ### Router Configuration
 
 Created VLAN sub-interfaces:
+
 ```bash
+
 ip link add link eth0 name eth0.10 type vlan id 10
 ip link add link eth0 name eth0.20 type vlan id 20
+
 ```
 #### Assigned Gateway IP:
 ```
-ip address add 10.10.1.73/24 dev eth0.10
-ip address add 10.10.1.74/24 dev eth0.10
-
-ip address add 10.10.1.75/24 dev eth0.20
-ip address add 10.10.1.76/24 dev eth0.20
+ip address add 10.10.1.1/24 dev eth0.10
+ip address add 10.10.2.1/24 dev eth0.20
 ```
 Enabled interfaces:
 ```
