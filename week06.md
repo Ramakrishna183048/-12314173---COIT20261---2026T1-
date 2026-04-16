@@ -32,6 +32,14 @@ Viewed ARP table again and observed new entry
 Pinged Host A from Host C
 Observed ARP table changes again
 
+### Host Configuration
+| Host   | Interface | IP Address  | Subnet Mask     | Default Gateway | Description                                      |
+|--------|----------|-------------|------------------|-----------------|--------------------------------------------------|
+| Host A | eth0     | 10.10.2.1   | 255.255.255.0    | N/A             | Source host used to observe ARP table changes    |
+| Host B | eth0     | 10.10.2.2   | 255.255.255.0    | N/A             | Target host for ARP resolution testing           |
+| Host C | eth0     | 10.10.2.3   | 255.255.255.0    | N/A             | Used to generate ARP entries from another device |
+| Host D | eth0     | 10.10.2.4   | 255.255.255.0    | N/A             | Additional host for communication testing        |
+
 ## Week 06 – ARP Configuration
 
 > You can find the project files and outputs for both ARP analysis and default gateway configuration below. These include    ARP table observations, ping results, and routing setup across multiple subnets.
@@ -100,3 +108,14 @@ To configure default gateways and enable communication between multiple subnets.
 ### Reflection (Task 2)
 
 This task helped me understand how default gateways allow communication between different subnets. I learned how routers forward packets and how proper gateway configuration ensures connectivity across networks.
+
+### Key Knowledge & Skills Developed
+
+Developed a clear understanding of how ARP (Address Resolution Protocol) maps IP addresses to MAC (hardware) addresses within a local network.
+Learned how to use the ip neigh show command to view and analyse ARP tables.
+Observed how ARP table entries change dynamically between states such as REACHABLE and STALE during communication.
+Gained practical experience in testing connectivity using the ping command and interpreting results.
+Understood the role of a default gateway in enabling communication between different subnets.
+Configured static IP addresses and default gateways using the /etc/network/interfaces file.
+Learned the importance of enabling IP forwarding on routers and disabling it on hosts for correct network behaviour.
+Developed troubleshooting skills by verifying routing tables and ensuring successful communication across networks.
