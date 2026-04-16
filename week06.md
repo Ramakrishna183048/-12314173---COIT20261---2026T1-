@@ -42,7 +42,7 @@ Observed ARP table changes again
 
 ## Screenshots
 
-![ARP HostA Table1](./)
+![ARP HostA Table1](./images/ARP-Basics-12314173-HostA-Table.png)
 
 ![ARP HostA Table2](./)
 
