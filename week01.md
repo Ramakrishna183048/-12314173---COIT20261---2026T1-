@@ -95,7 +95,7 @@ sysctl net.ipv4.ip_forward
 
 >  **Project Files**
 >  
-> 🔗 [Download GNS3 Project](./GNS3-Intro-12314173.gns3project)
+>  [Download GNS3 Project](./GNS3-Intro-12314173.gns3project)
 ## Week 01 – Project Files
 
 The complete GNS3 project file for Week 01 can be accessed using the link below.
