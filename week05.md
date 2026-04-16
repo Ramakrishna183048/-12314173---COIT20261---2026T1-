@@ -123,6 +123,11 @@ Enabled interfaces:
 ip link set eth0.10 up
 ip link set eth0.20 up
 ```
+## Week 05 – VLAN Router Project File
+
+> You can find the project files for both tasks completed in this week below. These files include VLAN setup on the switch > and the inter-VLAN routing configuration.
+>
+> [VLAN Router Project File](./)
 
 ### Network Topology Screenshot
 
