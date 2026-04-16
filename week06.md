@@ -85,7 +85,7 @@ To configure default gateways and enable communication between multiple subnets.
 ### Screenshots
 
 **Network Topology**  
-![Network](./)
+![Network](./images/Default-Gateway-12314173-network.png)
 
 **Routing Tables**  
 
