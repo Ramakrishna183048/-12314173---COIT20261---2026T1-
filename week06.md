@@ -90,7 +90,7 @@ To configure default gateways and enable communication between multiple subnets.
 **Routing Tables**  
 
 ![Routing Host1](./images/Default-Gateway-12314173-Host1.png)
-![Routing Host2](./)
+![Routing Route2](./images/Default-Gateway-12314173-Route2.png)
 
 **Ping Test**  
 ![Ping](./images/Default-Gateway-12314173-ping.png)
