@@ -73,7 +73,7 @@ To configure default gateways and enable communication between multiple subnets.
 
 > You can find the project files and outputs for default gateway configuration below. 
 
-> [Default Gateway Project File](./)
+> [Default Gateway Project File](./images/Default-Gateway-12314173.gns3project)
 
 → Demonstrates routing between different networks using default gateways and successful communication across subnets.
 
