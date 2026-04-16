@@ -87,7 +87,7 @@ ip address show
 > You can find my Week 02 project files using the link below.
 > This includes the IP configuration setup and the network testing results completed during this lab.
 >
-> [IP Configuration and Network Testing File](./)
+> [IP Configuration and Network Testing File](./images/Setting-IP-12314173.gns3project)
 
 ## Screenshots
 #### Screenshot 1: Network Topology
