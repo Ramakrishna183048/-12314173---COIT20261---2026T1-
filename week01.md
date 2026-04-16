@@ -48,6 +48,7 @@ This lab introduces the GNS3 network simulator. The objective was to create a si
 The following configuration was applied to the `/etc/network/interfaces` file **before** starting the node:
 
 ```bash
+
 # Static config for eth0
 auto eth0
 iface eth0 inet static
@@ -56,30 +57,43 @@ iface eth0 inet static
     up sysctl net.ipv4.ip_forward=0
 ```
 
-### Configuration Explained
-
-| **Line** | **Command** | **Purpose** |
-|---|---|---|
-| 1 | `auto eth0` | Automatically brings up the eth0 interface at boot |
-| 2 | `iface eth0 inet static` | Specifies that the eth0 interface uses a static IPv4 configuration. |
-| 3 | `address 10.10.1.1` | Assigns the IP address 10.10.1.1 to the eth0 network interface. |
-| 4 | `netmask 255.255.255.0` | Defines the subnet mask for the network, indicating the network range. |
-| 5 | `up sysctl net.ipv4.ip_forward=0` | Disables IP forwarding so the system does not route packets between networks. |
-
-### Purpose of disabling IP Forwarding?
-IP forwarding is disabled to ensure that the Linux node operates only as a host device and does not forward packets between network interfaces. This prevents the system from acting as a router in the network topology.
-
----
+### Configuration
+```
+auto eth0
+```
+→ Automatically brings up the eth0 interface during system boot.
+```
+iface eth0 inet static
+```
+→ Specifies that the eth0 interface is configured with a static IPv4 address.
+```
+address 10.10.1.1
+```
+→ Assigns the IP address 10.10.1.1 to the eth0 interface.
+```
+netmask 255.255.255.0
+```
+→ Defines the subnet mask, indicating the network range (/24 network).
+```
+up sysctl net.ipv4.ip_forward=0
+```
+→ Disables IP forwarding, ensuring the system behaves as a host (not a router).
 
 ## Commands Used
+```
+ip address show
+```
+→ Displays the current IP addresses and detailed network interface configuration of the system.
+```
+cat /etc/network/interfaces
+```
+→ Outputs the contents of the network configuration file, allowing verification of the static IP settings.
+```
+sysctl net.ipv4.ip_forward
+```
+→ Checks the status of IP forwarding, indicating whether the system is configured to route packets between interfaces.
 
-| S.N. | Command | **Purpose** |
-|---|---|---|
-| 1 | `ip address show` | Displays the current IP address and network interface configuration of the system. |
-| 2 | `cat /etc/network/interfaces` | Shows the contents of the network configuration file. |
-| 3 | `sysctl net.ipv4.ip_forward` | Displays whether IP forwarding is enabled or disabled in the system. |
-
-### Example Output: `ip address show`
+### Output: `ip address show`
 
 ```
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
