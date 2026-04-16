@@ -31,12 +31,15 @@ Viewed ARP table again and observed new entry
 Pinged Host A from Host C
 Observed ARP table changes again
 
+## Week 06 – ARP Configuration
+
+> You can find the project files and outputs for both ARP analysis and default gateway configuration below. These include    ARP table observations, ping results, and routing setup across multiple subnets.
+
+> [ARP Configuration Project File](./)
+> 
+→ Shows how IP addresses are resolved to MAC addresses using ARP and how the ARP table updates during communication.
 
 ## Screenshots
-
-<<<<<<<<<<<ARP Table Before Communication
-ARP Table After Communication>>>>>>>>>>>>
-
 
 ---
 
@@ -65,6 +68,14 @@ To configure default gateways and enable communication between multiple subnets.
 - Configured default gateways on hosts  
 - Enabled IP forwarding on routers  
 - Disabled IP forwarding on hosts  
+
+## Week 06 – Default Gateway Configuration
+
+> You can find the project files and outputs for default gateway configuration below. 
+
+> [Default Gateway Project File](./)
+
+→ Demonstrates routing between different networks using default gateways and successful communication across subnets.
 
 ### Screenshots
 
