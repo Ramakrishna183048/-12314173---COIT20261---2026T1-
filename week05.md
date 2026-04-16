@@ -40,7 +40,7 @@ To divide a network into separate VLANs using a managed switch and observe how V
 
 ## Week 05 – VLAN Configuration on Switch
 
-> You can find the project files for both tasks completed in this week below. These files include VLAN setup on the switch > and the inter-VLAN routing configuration.
+> You can find the project files for both tasks completed in this week below. These files include VLAN setup on the switch   and the inter-VLAN routing configuration.
 >
 > [Vlan Switch Project File](./images/Vlan-Basics-12314173.gns3project)
 
