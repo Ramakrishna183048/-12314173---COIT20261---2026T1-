@@ -94,13 +94,28 @@ sysctl net.ipv4.ip_forward
 → Checks the status of IP forwarding, indicating whether the system is configured to route packets between interfaces.
 
 
-## Week 01 – Project Files
+## **Week 01 – Project Files**
 
 > The complete GNS3 project file for Week 01 can be accessed using the link below.
 >  It includes the configured Linux host, static IP setup, and required annotations for the lab task.
 >
 >  [GNS3 NETWORK PROJECT FILE](./)
 
+## Screenshots 
+
+### Screenshot 1: GNS3 Network Topology
+
+> This screenshot shows the GNS3 workspace with the Linux host node, project title, student details, and IP address label.
+
+![Network Topology](images/GNS-Intro-12314173-network.png.png)
+
+---
+
+### Screenshot IP Address
+
+![IP Address Console](images/GNS-Intro-12314173-ipaddress.png.png)
+
+---
 ### Output: `ip address show`
 
 ```
@@ -118,22 +133,6 @@ sysctl net.ipv4.ip_forward
     inet6 fe80::42:a2ff:fe84:3600/64 scope link
        valid_lft forever preferred_lft forever
 ```
-
-## Screenshots 
-
-### Screenshot 1: GNS3 Network Topology
-
-> This screenshot shows the GNS3 workspace with the Linux host node, project title, student details, and IP address label.
-
-![Network Topology](images/GNS-Intro-12314173-network.png.png)
-
----
-
-### Screenshot IP Address
-
-![IP Address Console](images/GNS-Intro-12314173-ipaddress.png.png)
-
----
 
 ## Key Knowledge & Skills Developed
 
