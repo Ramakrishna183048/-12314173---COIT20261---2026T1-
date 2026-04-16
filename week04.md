@@ -99,9 +99,11 @@ iface eth1 inet static
 ip route show
 ```
 ### Observations
+
 -Hosts used router as default gateway
 -Router had routes for both subnets
 -Communication between subnets was successful
+
 ---
 
 ## Week 04 – Project Files
