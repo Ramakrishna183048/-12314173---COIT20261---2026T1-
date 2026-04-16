@@ -162,7 +162,7 @@ show ip route
 > You can find my Week 04 GNS3 project file using the link below.
 > This includes the IP configuration setup and related work completed for this lab.
 >
-> [OSPF Project File](./)
+> [OSPF Project File](./images/OSPF-Basics-12314173.gns3project)
 
 ## Results
 
