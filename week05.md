@@ -38,6 +38,14 @@ To divide a network into separate VLANs using a managed switch and observe how V
 | 17 | Test Inter-VLAN Connectivity | Verified hosts in different VLANs can communicate via router | Done |
 | 18 | Record Outputs | Captured required screenshots for network and VLAN configuration | Done |
 
+## Week 05 – VLAN Configuration on Switch
+
+> You can find the project files for both tasks completed in this week below. These files include VLAN setup on the switch > and the inter-VLAN routing configuration.
+>
+> [Vlan Switch Project File](./)
+
+----
+
 ###  Network Topology
 
 ![Network](images/Vlan-Basics-12314173-network.png)
