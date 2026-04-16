@@ -46,7 +46,8 @@ Observed ARP table changes again
 
 ![ARP HostA Table2](./)
 
-![ARP HostA Table3](./)
+![ARP HostA Table3](./images/ARP-Basics-12314173-HostA-Table3.png)
+
 ---
 
 ###  Reflection (Task 1)
