@@ -32,14 +32,6 @@ Viewed ARP table again and observed new entry
 Pinged Host A from Host C
 Observed ARP table changes again
 
-### Host Configuration
-| Host   | Interface | IP Address  | Subnet Mask     | Default Gateway | Description                                      |
-|--------|----------|-------------|------------------|-----------------|--------------------------------------------------|
-| Host A | eth0     | 10.10.2.1   | 255.255.255.0    | N/A             | Source host used to observe ARP table changes    |
-| Host B | eth0     | 10.10.2.2   | 255.255.255.0    | N/A             | Target host for ARP resolution testing           |
-| Host C | eth0     | 10.10.2.3   | 255.255.255.0    | N/A             | Used to generate ARP entries from another device |
-| Host D | eth0     | 10.10.2.4   | 255.255.255.0    | N/A             | Additional host for communication testing        |
-
 ## Week 06 – ARP Configuration
 
 > You can find the project files and outputs for both ARP analysis and default gateway configuration below. These include    ARP table observations, ping results, and routing setup across multiple subnets.
