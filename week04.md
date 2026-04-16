@@ -103,6 +103,14 @@ ip route show
 -Router had routes for both subnets
 -Communication between subnets was successful
 ---
+
+## Week 04 – Project Files
+
+> You can find my Week 04 GNS3 project file using the link below.
+> This includes the IP configuration setup and related work completed for this lab.
+>
+> [View-Routes Files](./)
+
 ## Screenshots
 
 #### Screenshot Network Topology
