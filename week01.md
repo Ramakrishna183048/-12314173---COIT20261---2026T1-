@@ -94,7 +94,7 @@ sysctl net.ipv4.ip_forward
 → Checks the status of IP forwarding, indicating whether the system is configured to route packets between interfaces.
 
 
-## Week 01 – Project Files
+## Week 01 – Project File
 
 > The complete GNS3 project file for Week 01 can be accessed using the link below.
 >  It includes the configured Linux host, static IP setup, and required annotations for the lab task.
